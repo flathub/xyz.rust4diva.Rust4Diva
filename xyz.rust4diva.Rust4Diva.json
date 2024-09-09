@@ -28,7 +28,7 @@
             "buildsystem": "simple",
             "build-commands": [
                 "cargo --offline fetch --manifest-path Cargo.toml --verbose",
-                "cargo --offline build --release --verbose",
+                "SLINT_ENABLE_EXPERIMENTAL_FEATURES=1 cargo --offline build --release --verbose",
                 "install -Dm755 ./target/release/rust4diva -t /app/bin/",
                 "install -Dm644 ./flatpak/xyz.rust4diva.Rust4Diva.desktop -t /app/share/applications/",
                 "install -Dm644 ./flatpak/xyz.rust4diva.Rust4Diva.svg -t /app/share/icons/hicolor/scalable/apps/",
@@ -38,7 +38,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/R3alCl0ud/Rust4Diva.git",
-                    "commit": "v0.2.2"
+                    "commit": "v0.3.0"
                 },
                 "rust4diva-sources.json"
             ]
