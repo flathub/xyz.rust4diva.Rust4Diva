@@ -4786,6 +4786,32 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/proc-macro-error/proc-macro-error-1.0.4.crate",
+        "sha256": "da25490ff9892aab3fcf7c36f08cfb902dd3e71ca0f9f9517bea02a73a5ce38c",
+        "dest": "cargo/vendor/proc-macro-error-1.0.4"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"da25490ff9892aab3fcf7c36f08cfb902dd3e71ca0f9f9517bea02a73a5ce38c\", \"files\": {}}",
+        "dest": "cargo/vendor/proc-macro-error-1.0.4",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/proc-macro-error-attr/proc-macro-error-attr-1.0.4.crate",
+        "sha256": "a1be40180e52ecc98ad80b184934baf3d0d29f979574e439af5a55274b35f869",
+        "dest": "cargo/vendor/proc-macro-error-attr-1.0.4"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"a1be40180e52ecc98ad80b184934baf3d0d29f979574e439af5a55274b35f869\", \"files\": {}}",
+        "dest": "cargo/vendor/proc-macro-error-attr-1.0.4",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/proc-macro2/proc-macro2-1.0.86.crate",
         "sha256": "5e719e8df665df0d1c8fbfd238015744736151d4445ec0836b8e628aae103b77",
         "dest": "cargo/vendor/proc-macro2-1.0.86"
@@ -6081,6 +6107,45 @@
         "type": "inline",
         "contents": "{\"package\": \"a3e535eb8dded36d55ec13eddacd30dec501792ff23a0b1682c38601b8cf2349\", \"files\": {}}",
         "dest": "cargo/vendor/system-deps-6.2.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/table-enum-core/table-enum-core-0.3.0.crate",
+        "sha256": "a6585a0b06b80e04831b042c78882047f14f78bce570794c7a900a5a50be0130",
+        "dest": "cargo/vendor/table-enum-core-0.3.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"a6585a0b06b80e04831b042c78882047f14f78bce570794c7a900a5a50be0130\", \"files\": {}}",
+        "dest": "cargo/vendor/table-enum-core-0.3.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/table-enum-macro/table-enum-macro-0.3.0.crate",
+        "sha256": "e5cad9827f3555048157e6af8044535543513cdba3f0dce58f623a4e42f22c64",
+        "dest": "cargo/vendor/table-enum-macro-0.3.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"e5cad9827f3555048157e6af8044535543513cdba3f0dce58f623a4e42f22c64\", \"files\": {}}",
+        "dest": "cargo/vendor/table-enum-macro-0.3.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/table_enum/table_enum-0.3.0.crate",
+        "sha256": "2243750463ba23841cd61e0ccf5d75ec8dde9dc434f728a68cfe6a312270974c",
+        "dest": "cargo/vendor/table_enum-0.3.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"2243750463ba23841cd61e0ccf5d75ec8dde9dc434f728a68cfe6a312270974c\", \"files\": {}}",
+        "dest": "cargo/vendor/table_enum-0.3.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
