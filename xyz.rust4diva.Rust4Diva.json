@@ -1,9 +1,12 @@
 {
     "app-id": "xyz.rust4diva.Rust4Diva",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.7",
+    "runtime-version": "6.9",
     "separate-locales": false,
     "sdk": "org.kde.Sdk",
+    "sdk-extensions": [
+        "org.freedesktop.Sdk.Extension.rust-stable"
+    ],
     "command": "rust4diva",
     "finish-args": [
         "--share=ipc",
@@ -36,7 +39,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/R3alCl0ud/Rust4Diva.git",
-                    "commit": "dc5e3d3e53864f7c93b5ace4ecb8146e50247784"
+                    "tag": "v0.5",
+                    "commit": "1fdce562cd4691f0b1e3fb30931469c8e7ab5272"
                 },
                 "rust4diva-sources.json"
             ]
